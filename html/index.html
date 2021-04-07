@@ -1,99 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>We love Chameleon</title>
+    <title>Document</title>
+
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" type="image/ico" href="../images/favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div id="conteneur">
-
+    <div id="container">
         <header>
-            <h1>
-                J &#10084; les caméléons !
-            </h1>
+            <h1>J <span id="header_heart">&#9829;</span>les caméléons!</h1>
+
             <nav>
                 <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li class="nav_icons icon1"><a href="https://twitter.com/?lang=fr">
-                        <img src="../images/twitter_icon.png" alt="icon twitter link">
-                    </a></li>
-                    <li class="nav_icons icon2"><a href="https://fr-fr.facebook.com/">
-                        <img src="../images/facebook_icon.png" alt="icon facebook link">
-                    </a></li>
+                    <li><a href="https://twitter.com/?lang=fr"><img src="../images/twitter_icon.png" alt="twitter"></a></li>
+                    <li><a href="https://fr-fr.facebook.com/"><img src="../images/facebook_icon.png" alt="facebook"></a></li>
                 </ul>
             </nav>
         </header>
 
-        <main class="sections">
-
-            <section class="first_section">
-                <h2>Trop de caméléons? nope.</h2>
-                <p>
-                    Içi nous pensons qu'il n'y aura jamais trop de caméléons. Les caméléons, c'est mignon.
-                    Les caméléons, c'est pas con. Les caméléons, ça sent le bonbon, il est <strong><a href="#">prouvé scientifiquement</a></strong>
-                     que regarder les caméléons tous les jours améliore la productivité et diminue le stress. Essayez!
-                </p>
-
-                <figure>
+        <section class="main-content">
+            <article class="main-content__article">
+                <h2>Trop de caméléons? nope</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, eos.
+                Nihil rerum veniam, autem voluptatem cumque adipisci ipsa. Facilis, alias.
+                Quo facilis incidunt <em>iusto voluptas</em> , a pariatur nam suscipit sint?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, modi!
+                Dolorum iste dolores veniam aliquid, iusto ex id ipsum esse.</p>
+                <figure class="main-content__article--weekchameleon">
                     <img src="../images/cameleon-big.jpg" alt="big chameleon">
                     <figcaption>Le caméléon de la semaine &#9825;</figcaption>
                 </figure>
-            </section>
+            </article>
 
-            <section class="second_section">
+            <section class="main-content__gallery">
+                <main class="main-content__gallery--chameleon">
+                    <img src="../images/cameleon01.jpg" alt="chameleon">
+                    <img src="../images/cameleon02.jpg" alt="chameleon">
+                    <img src="../images/cameleon03.jpg" alt="chameleon">
+                    <img src="../images/cameleon04.jpg" alt="chameleon">
+                    <img src="../images/cameleon05.jpg" alt="chameleon">
+                    <img src="../images/cameleon06.jpg" alt="chameleon">
+                    <img src="../images/cameleon07.jpg" alt="chameleon">
+                    <img src="../images/cameleon08.jpg" alt="chameleon">
+                    <img src="../images/cameleon09.jpg" alt="chameleon">
+                    <img src="../images/cameleon10.jpg" alt="chameleon">
+                    <img src="../images/cameleon11.jpg" alt="chameleon">
+                    <img src="../images/cameleon12.jpg" alt="chameleon">
+                    <img src="../images/cameleon13.jpg" alt="chameleon">
+                    <img src="../images/cameleon14.jpg" alt="chameleon">
+                    <img src="../images/cameleon15.jpg" alt="chameleon">
+                    <img src="../images/cameleon16.jpg" alt="chameleon">
+                    <img src="../images/cameleon17.jpg" alt="chameleon">
+                    <img src="../images/cameleon18.jpg" alt="chameleon">
+                    <img src="../images/cameleon19.jpg" alt="chameleon">
+                    <img src="../images/cameleon20.jpg" alt="chameleon">
+                </main>
 
-                <div class="gallery">
-                        <img src="../images/cameleon01.jpg" alt="chameleon">
-                        <img src="../images/cameleon02.jpg" alt="chameleon">
-                        <img src="../images/cameleon03.jpg" alt="chameleon">
-                        <img src="../images/cameleon04.jpg" alt="chameleon">
-                        <img src="../images/cameleon05.jpg" alt="chameleon">
-                        <img src="../images/cameleon06.jpg" alt="chameleon">
-                        <img src="../images/cameleon07.jpg" alt="chameleon">
-                        <img src="../images/cameleon08.jpg" alt="chameleon">
-                        <img src="../images/cameleon09.jpg" alt="chameleon">
-                        <img src="../images/cameleon10.jpg" alt="chameleon">
-                        <img src="../images/cameleon11.jpg" alt="chameleon">
-                        <img src="../images/cameleon12.jpg" alt="chameleon">
-                        <img src="../images/cameleon13.jpg" alt="chameleon">
-                        <img src="../images/cameleon14.jpg" alt="chameleon">
-                        <img src="../images/cameleon15.jpg" alt="chameleon">
-                        <img src="../images/cameleon16.jpg" alt="chameleon">
-                        <img src="../images/cameleon17.jpg" alt="chameleon">
-                        <img src="../images/cameleon18.jpg" alt="chameleon">
-                        <img src="../images/cameleon19.jpg" alt="chameleon">
-                        <img src="../images/cameleon20.jpg" alt="chameleon">
-                </div>
-
-                <div class="newsletter">
-
+                <aside class="main-content__gallery--newsletters">
                     <h3>Soumettez vos photos de caméléons!</h3>
-                    <p>
-                        <strong class="sections_strong">
-                        Lorem ipsum dolor sit.
-                        Illo ducimus similique ab.
-                        Eligendi eaque molestias molestiae.
-                        <a href="#">Partagez là ici!</a></strong>
-                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur.
+                    Rem ex accusamus quos suscipit temporibus!
+                    Quisquam ducimus dicta placeat consectetur veniam?
+                    <a href="#">Partagez la içi</a></p>
 
-                    <h3>Inscrivez-vous à notre newsletter!</h3>
-                    <p>
-                        <strong><a href="#">Souscrivez-içi.</a></strong>
-                    </p>
-                </div>
+                    <h3>Inscrivez vous à notre newsletters</h3>
+                    <p><a href="#">Souscrivez içi</a></p>
+                </aside>
             </section>
-
-        </main>
+        </section>
 
         <footer>
-            <p>Copyright &#169; 2017 | 	&#10084; Caméléons</p>
+            <p>Copyright &#169; 2017 | &#9829; Caméléons</p>
         </footer>
-
     </div>
 </body>
 </html>
