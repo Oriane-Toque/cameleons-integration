@@ -5,15 +5,13 @@
 /*===============POSITIONNEMENT BLOCKS================*/
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
     background-color: #2f3848;
 }
 
-#container{
-    display: grid;
-    grid-template-columns: 900px;
-    row-gap: 20px;
 
-    width: 900px;
+#container{
+    max-width: 900px;
     margin: auto;
 }
 
@@ -24,7 +22,6 @@ body{
 
     width: 100%;
 }
-
 
 /*pour éviter que les images contenues dans le main débordent*/
 .main-content img{
@@ -40,8 +37,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-
-    width: 200%;
+    flex: 3;
 }
 
 .main-content__gallery--newsletters{
@@ -50,6 +46,7 @@ body{
     padding: 10px 15px;
     margin-left: 30px;
     height: min-content;
+    flex: 1;
 }
 
 /*===============HEADER================*/
@@ -162,7 +159,7 @@ nav li:last-child{
 /*===============MAIN CONTENT NEWSLETTERS================*/
 .main-content__gallery--newsletters h3{
     color: #00ccff;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
 
@@ -173,7 +170,6 @@ nav li:last-child{
 .main-content__gallery--newsletters p,
 .main-content__gallery--newsletters a{
     color: #9acd32;
-    font-size: 1rem;
     font-weight: bold;
 
     padding-top: 10px;
